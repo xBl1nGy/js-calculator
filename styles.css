@@ -19,7 +19,7 @@ body {
 #display {
     width: 100%;
     padding: 20px;
-    font-size: 15px;
+    font-size: 30px;
     max-width: 500px;
     border: none;
     background-color: hsl(0, 0%, 25%);
@@ -32,6 +32,12 @@ body {
     gap: 10px;
     padding: 25px;
 }
+
+.alg {
+    grid-column: span 3; /* Make sure the text spans across all columns */
+    text-align: center;   /* Align the text to the right */
+}
+
 
 button {
 width: 100px;
